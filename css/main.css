@@ -41,12 +41,12 @@ footer {
 }
 
 .design {
-  background: #6C5B7B;
+  background: #355C7D;
   color: #ffffff;
 }
 
 .contact {
-  background: #355C7D;
+  background: #6C5B7B;
   color: #ffffff;
 }
 
@@ -56,3 +56,11 @@ p {
   font-size: 16px;
   line-height: 1.5;
 }
+
+.home {
+  position: relative;
+  height: 400px;
+  background: url(http://www.dianaminot.com/wp-content/uploads/2015/05/Tyepwriter-crumpled-paper.jpg) no-repeat center center;
+}
+
+.headline {color: #ffffff;}
