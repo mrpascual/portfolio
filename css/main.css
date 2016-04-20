@@ -59,8 +59,32 @@ p {
 
 .home {
   position: relative;
-  height: 400px;
+  height: 550px;
   background: url(http://www.dianaminot.com/wp-content/uploads/2015/05/Tyepwriter-crumpled-paper.jpg) no-repeat center center;
+  background-size: cover;
 }
 
-.headline {color: #ffffff;}
+.headline {
+  color: #ffffff;
+  position: absolute;
+  top: 0;
+  right: 550px;
+  bottom: 220px;
+  left: 0;
+  z-index: 2;
+  padding: 0;
+  margin: auto;
+  height: 20px;
+  -webkit-transform: rotate(-28deg);
+}
+
+.iframe {
+  height: 100px;
+  width: 100px;
+}
+
+.home h1 {
+  font-weight: 300;
+  text-align: center;
+  color: #333;
+}
