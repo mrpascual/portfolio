@@ -17,3 +17,10 @@ footer {
   text-align: center;
   font-weight: 300;
 }
+
+.about p {text-align: center;}
+
+.technologies li {
+  text-align: center;
+  list-style-type: none;
+}
