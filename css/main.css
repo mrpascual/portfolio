@@ -13,6 +13,8 @@ footer {
   padding: 2em 0;
 }
 
+p {color:000000;}
+
 .container h1 {
   text-align: center;
   font-weight: 300;
@@ -36,8 +38,8 @@ footer {
 }
 
 .work {
-  background: #C06C84;
-  color: #ffffff;
+  background: #ffffff;
+  color: #000000;
 }
 
 .design {
@@ -90,3 +92,56 @@ p {
 }
 
 strong {color: #355C7D;}
+
+.contact-icons {
+  display: flex;
+  justify-content: center;
+}
+
+
+
+
+.contact-icons a {
+  content:"\f09b";
+  text-align: center;
+  list-style: none;
+  text-decoration: none;
+  padding-top: 1em;
+  width: 5em;
+  color: #ffffff;
+  &:hover,
+  &:focus {color: #355C7D;}
+}
+
+.contact-icons a, .contact-icons a:hover, .contact-icons a:active, .contact-icons a:visited  {
+   text-decoration: none;
+}
+
+.contact-icons {
+  list-style: none;
+  text-decoration: none;
+}
+
+.light-logo {
+  width: 190px;
+  height: 126px;
+}
+
+.scrumtious {
+  width: 250px;
+  height: 80px;
+}
+
+.balloonpop {
+  width: 150px;
+  height: 150px;
+}
+
+.projects-work {
+  padding-top: 3em;
+}
+
+.wavs {
+  width: 200px;
+  height: 100px;
+}
