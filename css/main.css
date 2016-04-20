@@ -7,9 +7,9 @@ body {
 section {padding: 5em 0;}
 
 footer {
-  background: #000000;
+  background: #f8f8f8;
   text-align: center;
-  color: #ffffff;
+  color: #355C7D;
   padding: 2em 0;
 }
 
@@ -25,12 +25,34 @@ footer {
   list-style-type: none;
 }
 
+.about {
+  background: #F8B195;
+  color: #ffffff;
+}
+
 .skills {
-  background: #000000;
+  background: #F67280;
+  color: #ffffff;
+}
+
+.work {
+  background: #C06C84;
   color: #ffffff;
 }
 
 .design {
-  background: #000000;
+  background: #6C5B7B;
   color: #ffffff;
+}
+
+.contact {
+  background: #355C7D;
+  color: #ffffff;
+}
+
+.skills p {text-align: center;}
+
+p {
+  font-size: 16px;
+  line-height: 1.5;
 }
